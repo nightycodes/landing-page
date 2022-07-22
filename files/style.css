@@ -28,8 +28,7 @@
 
 .links {
     font-family: var(--font-secondary);
-    padding-left: 1200px;
-    padding-bottom: 10px;
+    float: right;
     
 }
 
