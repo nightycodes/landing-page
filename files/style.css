@@ -15,6 +15,10 @@
     background-color: var(--clr-dark);
     color: var(--clr-light);
     font-family: var(--font-secondary);
+    max-width: 200%;
+    
+
+
 }
 
 .intro-logo {
@@ -38,5 +42,9 @@
     width: 35%;
     height: 5%;
     margin-left: 900px;
+}
+
+.intro-logo, .intro-text, .btn {
+    margin-left: 30px;
 }
 
