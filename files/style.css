@@ -21,15 +21,20 @@
 .intro-logo {
     max-width: 75px;
     max-height: 75px;
-    margin: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
 
 }
 
 .links {
     font-family: var(--font-secondary);
     margin-left: 1200px;
-    margin-top: auto;
+    margin-top: 2px;
     
+}
+
+.intro-text {
+    margin: 40px;
 }
 
 .header {
