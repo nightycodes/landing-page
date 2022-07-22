@@ -14,16 +14,29 @@
 .intro {
     background-color: var(--clr-dark);
     color: var(--clr-light);
+    font-family: var(--font-secondary);
 }
 
 .intro-logo {
     max-width: 75px;
     max-height: 75px;
+
 }
 
 .links {
     font-family: var(--font-secondary);
-    margin: 0 auto;
+    margin-left: 1200px;
+    margin-top: auto;
+    
+}
 
+.header {
+    font-family: var(--font-primary);
+}
+
+.intro-img {
+    width: 35%;
+    height: 5%;
+    margin-left: 900px;
 }
 
