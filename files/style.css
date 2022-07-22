@@ -15,12 +15,13 @@
     background-color: var(--clr-dark);
     color: var(--clr-light);
     font-family: var(--font-secondary);
-    border: auto;
+    
 }
 
 .intro-logo {
     max-width: 75px;
     max-height: 75px;
+    margin: 40px;
 
 }
 
