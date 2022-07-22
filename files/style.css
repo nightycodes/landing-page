@@ -1,0 +1,29 @@
+/* Typography and Colors */
+
+:root {
+    --font-primary: Satisfy;
+    --font-secondary: Lato;
+    
+    --clr-light: #FEF7DC;
+    --clr-dark: #A19882;
+    --clr-accent: #E6DDC6;
+}
+
+/* INTRO SECTION */
+
+.intro {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+.intro-logo {
+    max-width: 75px;
+    max-height: 75px;
+}
+
+.links {
+    font-family: var(--font-secondary);
+    margin: 0 auto;
+
+}
+
