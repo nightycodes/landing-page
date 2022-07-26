@@ -32,4 +32,15 @@
 .intro-text {
     position: absolute;
     top: 10em;
+    left: 10em;
+}
+
+.links {
+    position: absolute;
+    top: 0;
+    left: 63em;
+}
+
+.intro-logo {
+    padding-left: 10em;
 }
