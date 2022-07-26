@@ -15,7 +15,8 @@
     background-color: var(--clr-dark);
     color: var(--clr-light);
     font-family: var(--font-secondary);
-    margin-bottom: 100px;
+    max-width: max-content;
+    max-height: max-content;
     
 }
 
@@ -29,20 +30,24 @@
 .links {
     font-family: var(--font-secondary);
     float: right;
+    padding: 40px;
+
     
 }
 
 .intro-text {
     margin: 40px;
+    padding-top: 100px;
 }
 
 .header {
     font-family: var(--font-primary);
+    padding-top: 100px;
 }
 
 .intro-img {
     width: 35%;
-    height: 5%;
-    margin-left: 900px;
-    margin-bottom: 200px;
+    height: 2%;
+    padding-left: 900px;
+    padding-bottom: 300px;
 }
