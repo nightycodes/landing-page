@@ -9,12 +9,18 @@
     --clr-accent: #E6DDC6;
 }
 
+.body {
+    background: var(--clr-light);
+}
+
+
 /* INTRO SECTION */
 
 .intro {
     position: relative;
     margin-bottom: 25em;
 }
+
 
 .intro-logo {
     height: 50px;
@@ -26,7 +32,7 @@
     width: 400px;
     position: absolute;
     left: 60em;
-    top: 10em;
+    top: 10em; 
 }
 
 .intro-text {
@@ -59,6 +65,11 @@
 
 .btn {
     font-family: var(--font-primary);
+    font-size: 20px;
+    background-color: var(--clr-accent);
+    color: var(--clr-dark);
+    border: 0;
+    
 }
 
 
