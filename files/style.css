@@ -13,7 +13,7 @@
 
 .intro {
     position: relative;
-    margin-bottom: 15em;
+    margin-bottom: 25em;
 }
 
 .intro-logo {
@@ -26,5 +26,10 @@
     width: 400px;
     position: absolute;
     left: 60em;
-    
+    top: 10em;
+}
+
+.intro-text {
+    position: absolute;
+    top: 10em;
 }
