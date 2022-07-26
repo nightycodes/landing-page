@@ -9,22 +9,19 @@
     --clr-accent: #E6DDC6;
 }
 
-* {
-    border: 2px solid red;
-  }
-
 /* INTRO SECTION */
 
 .intro {
-    
-    margin-bottom: 25em;
-    position: relative;
+    position: relative;  
+    background-color: #A19882;
 }
 
 
 .intro-logo {
     height: 50px;
     width: 50px;
+    position: absolute;
+
 }
 
 .intro-img {
@@ -44,7 +41,7 @@
 .links {
     position: absolute;
     top: 0;
-    left: 52.5em;
+    left: 52.3em;
     font-family: var(--font-secondary);
     font-size: 20px;
 }
@@ -68,9 +65,38 @@
     font-size: 20px;
     background-color: var(--clr-accent);
     color: var(--clr-dark);
-    border: 0;
+    border: none;
     
 }
+
+/* About Us Section */
+
+.about-us {
+    position: relative;
+    margin-top: 50em;
+}
+
+.number-one__img {
+    height: 50px;
+    width: 50px;
+}
+
+.number-two__img {
+    height: 50px;
+    width: 50px;
+}
+
+.number-three__img {
+    height: 50px;
+    width: 50px;
+}
+
+.number-four__img {
+    height: 50px;
+    width: 50px;
+}
+
+
 
 
 
