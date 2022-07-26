@@ -9,16 +9,16 @@
     --clr-accent: #E6DDC6;
 }
 
-.body {
-    background: var(--clr-light);
-}
-
+* {
+    border: 2px solid red;
+  }
 
 /* INTRO SECTION */
 
 .intro {
-    position: relative;
+    
     margin-bottom: 25em;
+    position: relative;
 }
 
 
