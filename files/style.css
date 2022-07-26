@@ -9,27 +9,33 @@
     --clr-accent: #E6DDC6;
 }
 
+* {
+    border: 2px solid red;
+}
+
 /* INTRO SECTION */
 
 .intro {
-    position: relative;  
-    background-color: #A19882;
+    
+    background-color: var(--clr-dark);
+    
 }
-
 
 .intro-logo {
     height: 50px;
     width: 50px;
     position: absolute;
+    bottom: 40em;
 
 }
 
 .intro-img {
-    height: 200px;
+    height: 185px;
     width: 400px;
     position: absolute;
     left: 60em;
     top: 10em; 
+    
 }
 
 .intro-text {
