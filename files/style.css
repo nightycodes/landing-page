@@ -1,7 +1,7 @@
 /* Typography and Colors */
 
 :root {
-    --font-primary: Satisfy;
+    --font-primary: Raleway;
     --font-secondary: Lato;
     
     --clr-light: #FEF7DC;
@@ -38,9 +38,35 @@
 .links {
     position: absolute;
     top: 0;
-    left: 63em;
+    left: 52.5em;
+    font-family: var(--font-secondary);
+    font-size: 20px;
 }
 
 .intro-logo {
     padding-left: 10em;
 }
+
+.header {
+    font-family: var(--font-primary) ;
+    font-size: 40px;
+}
+
+.intro-paragraph {
+    font-family: var(--font-secondary);
+    font-size: 20px;
+}
+
+.btn {
+    font-family: var(--font-primary);
+}
+
+
+
+
+
+
+
+
+
+
