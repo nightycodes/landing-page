@@ -1,7 +1,7 @@
 :root {
 
     --ff-primary: Source Sans Pro;
-    --ff-secondary: Libre Bakersville;
+    --ff-secondary: Libre Baskerville;
 
     --clr-light: #DCD7C9;
     --clr-accent: #A27B5C;
@@ -24,6 +24,7 @@
     float: right;
     padding-right: 10%;
     
+    
 }
 
 .link-one, .link-two, .link-three {
@@ -35,6 +36,11 @@
 
 /* Intro Section */
 
+
+.intro {
+    height: 20em;
+}
+
 .intro-img {
     height: 200px;
     width: 400px;
@@ -42,4 +48,14 @@
     padding-right: 10%;
     padding-bottom: 2%;
 }
+
+.intro-title {
+    font-family: var(--ff-secondary);
+}
+
+.intro-paragraph {
+    font-family: var(--ff-primary);
+}
+
+
 
