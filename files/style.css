@@ -1,3 +1,14 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
 /* Typography and Colors */
 
 :root {
@@ -9,23 +20,37 @@
     --clr-accent: #E6DDC6;
 }
 
-* {
-    border: 2px solid red;
+
+
+
+body{
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+img{
+    display: block;
+    max-width: 100%;
 }
 
 /* INTRO SECTION */
 
+
+
 .intro {
-    
-    background-color: var(--clr-dark);
-    
+    position: relative;
+    width: max-content;
 }
 
 .intro-logo {
     height: 50px;
     width: 50px;
     position: absolute;
-    bottom: 40em;
+    
 
 }
 
@@ -44,7 +69,7 @@
     left: 10em;
 }
 
-.links {
+.nav {
     position: absolute;
     top: 0;
     left: 52.3em;
