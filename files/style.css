@@ -7,3 +7,30 @@
     --clr-accent: #A27B5C;
     --clr-dark: #3F4E4F;
 }
+
+/* Header */
+
+.header {
+    background-color: var(--clr-dark);
+}
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+    padding-left: 10%;
+}
+
+.nav {
+    float: right;
+    padding-right: 10%;
+    
+}
+
+.link-one, .link-two, .link-three {
+    font-family: var(--ff-primary);
+    font-size: 1.25rem;
+    color: var(--clr-light);
+    text-decoration: none;
+}
+
+
