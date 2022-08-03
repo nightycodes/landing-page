@@ -1,3 +1,4 @@
+
 :root {
 
     --ff-primary: Source Sans Pro;
@@ -8,16 +9,32 @@
     --clr-dark: #3F4E4F;
 }
 
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+h1, p{
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+
 /* Header */
 
 .header {
     background-color: var(--clr-dark);
+    
 }
 
 .logo-img {
     height: 50px;
     width: 50px;
     padding-left: 10%;
+
+    
 }
 
 .nav {
@@ -38,24 +55,52 @@
 
 
 .intro {
-    height: 20em;
+    height: 30em;
+    background-color: var(--clr-dark);
 }
+
 
 .intro-img {
     height: 200px;
     width: 400px;
     float: right;
+    padding-top: 10%;
     padding-right: 10%;
-    padding-bottom: 2%;
 }
 
 .intro-title {
     font-family: var(--ff-secondary);
+    color: var(--clr-light);
+    padding-left: 10%;
+    padding-top: 15%;
 }
 
 .intro-paragraph {
     font-family: var(--ff-primary);
+    color: var(--clr-light);
+    margin-left: 10%;
+    
 }
+
+.btn {
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    font-family: var(--ff-primary);
+    font-size: .8rem;
+    border-style: none;
+    display: inline-block;
+    padding: .5em 1.5em;
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    cursor: pointer;
+
+
+    
+}
+
+
+
+
 
 
 
