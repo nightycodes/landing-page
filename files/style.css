@@ -34,12 +34,12 @@ h1, p{
     height: 50px;
     width: 50px;
     position: relative;
-    right: 8%;
+    right: 6%;
 }
 
 .nav {
     position: relative;
-    left: 8%
+    left: 6%
 }
 
 .link-one, .link-two, .link-three {
@@ -96,6 +96,16 @@ h1, p{
 
 /* About Us Section */
 
+.aboutus-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20em;
+    gap: 20px;
+}
+
+
+
 .aboutus-title {
     text-align: center;
     font-family: var(--ff-primary);
@@ -105,30 +115,15 @@ h1, p{
 .img-one, .img-two, .img-three, .img-four {
     width: 100px;
     height: 100px;
-    
-
+    border: 4px solid var(--clr-dark);
 }
 
 .no-one__text, .no-two__text, .no-three__text, .no-four__text {
     text-align: center;
     font-family: var(--ff-primary);
     font-size: 1.2rem;
-   
-
 }
 
-.img-one {
-    padding-left: 110px;
-}
-
-
-.aboutus-section{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 20em;
-    gap: 20px;
-}
 
 
 
