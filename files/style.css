@@ -150,6 +150,62 @@ h1, p{
     right: 5px;
 }
 
+/* Contact Section */
+
+.connect {
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-area {
+    background-color: var(--clr-light);
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.connect-header {
+    font-family: var(--ff-primary);
+    font-size: 1.7rem;
+}
+
+.connect-paragraph {
+    font-family: var(--ff-primary);
+    font-size: 1.2rem;
+}
+
+
+.connect-button {
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    font-family: var(--ff-primary);
+    font-size: 1rem;
+    border: 2px solid var(--clr-dark);
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
