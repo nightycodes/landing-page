@@ -137,8 +137,8 @@ h1, p{
 
 .mission-paragraph {
     font-family: var(--ff-primary);
-    font-size: 1.5rem;
-    max-width: 600px;
+    font-size: 1.8rem;
+    max-width: 800px;
     text-align: left;
 }
 
@@ -146,8 +146,8 @@ h1, p{
     font-family: var(--ff-primary);
     font-size: 2rem;
     position: relative;
-    top: 120px;
-    right: 50px;
+    top: 130px;
+    right: 5px;
 }
 
 
