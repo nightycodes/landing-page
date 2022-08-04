@@ -31,15 +31,19 @@ h1, p{
 }
 
 .logo-img {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     position: relative;
-    right: 6%;
+    right: 3%;
 }
 
 .nav {
     position: relative;
-    left: 6%
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    left: 8%;
+    
 }
 
 .link-one, .link-two, .link-three {
